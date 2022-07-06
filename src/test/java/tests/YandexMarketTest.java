@@ -10,7 +10,7 @@ import runner.Runner;
 
 import java.util.List;
 
-public class OneIncTest extends Runner {
+public class YandexMarketTest extends Runner {
 
     @Test(description = "C1111 Returned products match the specified search parameters",
             dataProvider = "entryFields", dataProviderClass = StaticDataProvider.class, groups = {"yandexGroup"})
